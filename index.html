@@ -5,16 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="Javascript.js" defer ></script>
+
 </head>
 
 <body>
-    <nav>
-    <ul>
-        <li><a href="självmord.html">Självmord</a></li>
-        <li><a href="källor.html">Källor</a></li>
-        <li><a href="mentala sjukdomar.html">Mentala sjukdomar</a></li>
-    </ul>
-    </nav>
     <header>
         Generell information
     </header>
@@ -26,19 +21,22 @@
         Varning! 
     </h1>
     <p>
-        Om något blir obekvämt för dig, gör inte det.Det finns inget fördel med att tvinga sig själv att göra något om man känner sig illa. 
+        Om något blir obekvämt för dig, gör inte det.Det finns inget fördel med att tvinga sig själv att göra något om man mår illa. 
     </p>
     <div class="slott">
-    <div class="vänstertorn">
-        <img src="castle tower.jpg" alt="Vänsterslotttorn">
+        <img class="vänstertorn" src="castle tower.jpg" alt="Vänsterslotttorn">
+        <img class="dörr" src="castle door.jpg" alt="dörr">
+        <nav class="länk">
+            <ul>
+                <li><a href="självmord.html">Självmord</a></li>
+                <li><a href="källor.html">Källor</a></li>
+                <li><a href="mentala sjukdomar.html">Mentala sjukdomar</a></li>
+            </ul>
+            </nav>
+        <img class="högertorn" src="castle tower.jpg" alt="Högerslotttorn">
     </div>
-    <div class="dörr">
-        <img src="castle door.jpg" alt="dörr">
-    </div>
-    <div class="högertorn">
-        <img src="castle tower.jpg" alt="Högerslotttorn">
-    </div>
-</div>
+        <button type="button" class="open-door-button">Öppna dörren</button>
+    
     <footer>
         slottet.org
     </footer>
