@@ -19,14 +19,38 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
+  padding: 25px;
 }
-.p {
+.varning-meddelande {
+  display: flex;
+  justify-content: center;
   width: 1fr;
   height: 1fr;
+  font-size: 25px;
+  color: red;
 }
 .länk {
   display: none;
 }
 .länk.invisible {
+  display: flex;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: red;
+}
+.press {
+  display: flex;
+  justify-content: center;
+}
+header {
+  font-size: 25px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
 }
